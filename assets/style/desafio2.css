@@ -1,0 +1,27 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 70px;
+  
+}
+
+.column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.container img{
+  width: 300px;
+  height: 500px;
+ 
+}
