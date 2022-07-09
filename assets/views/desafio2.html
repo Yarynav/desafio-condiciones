@@ -4,24 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Quattrocento+Sans:ital,wght@1,700&family=Quicksand&family=Raleway:wght@600&family=Roboto+Flex:opsz@8..144&family=Work+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../style/desafio2.css" />
     <title>Parte 2</title>
   </head>
   <body>
-    <div class="container">
-      <div class="column">
-        <img src="../img/el-castillo-ambulante.jpg" alt="" />
-        <input type="number" />
+    <main class="main">
+      <h1>Puedes llevar hasta 10 sticker en total</h1>
+      <div class="container">
+        <div class="column">
+          <img src="../img/el-castillo-ambulante.jpg" alt="" />
+          <input type="number" id="sticker1" />
+        </div>
+        <div class="column">
+          <img src="../img/princesse_mononoke.jpg" alt="" />
+          <input type="number" id="sticker2" />
+        </div>
+        <div class="column">
+          <img src="../img/viaje-chihiro.jpg" alt="" />
+          <input type="number" id="sticker3" />
+        </div>
       </div>
-      <div class="column">
-        <img src="../img/princesse_mononoke.jpg" alt="" />
-        <input type="number" />
+      <div id="message"></div>
+      <div class="button">
+        <button id="button">Verificar</button>
       </div>
-      <div class="column">
-        <img src="../img/viaje-chihiro.jpg" alt="" />
-        <input type="number" />
-      </div>
-    </div>
+    </main>
+
     <script src="../js/desafio2.js"></script>
   </body>
 </html>
